@@ -39,7 +39,7 @@ class _selectfileState extends State<selectfile> {
   String _platformVersion = "Get the Text";
   bool status = false;
   String url = "https://owlbot.info/api/v4/dictionary/owl";
-  String token = "3d05b1a4db4d2db87afbf5a2105e22d6cb54601f";
+
   Future<List<Details>> details1 = null;
   List<Details> details = [];
   @override
